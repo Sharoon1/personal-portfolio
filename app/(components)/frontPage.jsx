@@ -56,7 +56,14 @@ function FrontPage() {
           </div>
         </div>
         <div>
-          <Image src="/img4.png" alt="signature" height={400} width={770} />
+          <Image
+            data-aos="zoom-out"
+            data-aos-duration="1000"
+            src="/fimg1-modified.png"
+            alt="signature"
+            height={400}
+            width={770}
+          />
         </div>
       </div>
     </div>
