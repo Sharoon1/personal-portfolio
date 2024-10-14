@@ -35,7 +35,7 @@ function Experience() {
             <dialog id="my_modal_4" className="modal backdrop-blur-2xl ">
               <div className="modal-box max-w-3xl p-20 space-y-2">
                 <Image
-                  src="/web.jpg"
+                  src="/web.png"
                   alt="wed image"
                   width={1500}
                   height={100}
@@ -98,7 +98,7 @@ function Experience() {
             <dialog id="my_modal_3" className="modal">
               <div className="modal-box max-w-3xl p-20 space-y-2">
                 <Image
-                  src="/digital.jpg"
+                  src="/digital.png"
                   alt="digital image"
                   width={1500}
                   height={100}
@@ -158,7 +158,7 @@ function Experience() {
             <dialog id="my_modal_2" className="modal">
               <div className="modal-box p-20 space-y-2 max-w-3xl">
                 <Image
-                  src="/seo.jpg"
+                  src="/seo.png"
                   alt="SEO image"
                   width={1500}
                   height={100}

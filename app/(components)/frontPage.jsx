@@ -3,6 +3,7 @@ import React from "react";
 import Button from "./button";
 import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
+import Link from "next/link";
 
 function FrontPage() {
   return (
@@ -35,7 +36,9 @@ function FrontPage() {
             certified from <span className="text-hoverColor">SMIT</span> */}
           </p>
           <div className="flex gap-x-4">
-            <Button text="Got a project" />
+            <Link href="/#port">
+              <Button text="Got a project" />
+            </Link>
             <button className="hover:bg-textColor text-sm  font-bold px-10 py-3 border border-black rounded-md hover:text-white  p-4 hover:duration-300">
               lets go
             </button>

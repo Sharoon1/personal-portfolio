@@ -11,7 +11,7 @@ function Map() {
           className="border-0"
           allowFullScreen=""
           loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
+          sandbox="allow-same-origin allow-scripts"
         ></iframe>
       </div>
     </div>

@@ -2,6 +2,7 @@
 import React from "react";
 import Button from "./button";
 import { Typewriter } from "react-simple-typewriter";
+import Link from "next/link";
 
 function PersonalDetail() {
   return (
@@ -21,7 +22,9 @@ function PersonalDetail() {
               />
             </p>
           </div>
-          <Button text="Got a project?" />
+          <Link href="/#port">
+            <Button text="Got a project?" />
+          </Link>
         </div>
         <div className="flex flex-col w-full lg:w-1/2 gap-y-6  lg:mt-0 mt-10">
           <p>
