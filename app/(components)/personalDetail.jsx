@@ -15,13 +15,13 @@ function PersonalDetail() {
             <h3 className="text-textColor">Sharoon Sarfraz</h3>
             {/* to see this latter */}
             <p>
-              Digital Marketer & {""}
-              <Typewriter
-                words={["Web Developer", "SEO Expert", "Affiliate Marketer"]}
-                loop={true}
-                cursor
-              />
-            </p>
+  Digital Marketer & {""}
+  <Typewriter
+    words={["SEO Expert", "Affiliate Marketer"]}
+    loop={true}
+    cursor
+  />
+</p>
           </div>
           <Link href="/#port">
             <Button text="Got a project?" />
@@ -36,6 +36,7 @@ function PersonalDetail() {
             Business Administration (BBA) in Business Administration and
             Management, majoring in Marketing from Government College
             University, Faisalabad
+            exceptional results in my work.
           </p>
           <p>
             With a strong foundation in design principles and a keen interest in
@@ -66,6 +67,7 @@ function PersonalDetail() {
               <br />
               {""}
               <span className="text-textColor font-bold"> +923066079142</span>
+              <span className="text-textColor font-bold"> +92418777246</span>
             </li>
           </ol>
         </div>

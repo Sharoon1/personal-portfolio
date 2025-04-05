@@ -9,6 +9,8 @@ export const metadata = {
   title: "Sharoon Sarfraz | SEO Expert, Digital Marketer & Web Consultant",
   description:
     "Sharoon is a skilled Web Developer, SEO Expert, and Digital Marketer with expertise in creating high-performance websites and driving online growth. Explore his portfolio to see innovative projects and proven marketing strategies.",
+  title: "Sharoon Sarfraz",
+  description: "Sharoon Sarfraz Personal Portfolio ",
 };
 
 export default function RootLayout({ children }) {

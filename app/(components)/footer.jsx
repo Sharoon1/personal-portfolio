@@ -34,6 +34,7 @@ function Footer() {
       </div>
       <div className="text-center">
         <p>Copyright &copy; 2025 Sharoon</p>
+        <p>Copyright &copy; 2024 Sharoon</p>
         <p>Sarfraz. All Rights reserved.</p>
       </div>
     </div>

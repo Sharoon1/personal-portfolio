@@ -16,6 +16,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "aos": "^2.3.4",
+    "emailjs-com": "^3.2.0",
     "next": "^14.1.4",
     "react": "^18.2.0",
     "react-creative-cursor": "^1.2.7",
