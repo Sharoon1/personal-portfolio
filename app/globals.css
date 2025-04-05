@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth; /* This enables smooth scrolling for all anchor links */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    @apply font-extrabold;
+  }
+  p {
+    @apply text-sm text-allTextC;
+  }
+  h1 {
+    @apply text-5xl;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-3xl;
+  }
+  h4 {
+    @apply text-2xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+}
+
+.side {
+  flex: 1 0 auto;
+  min-height: 10vh;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2%;
+  z-index: 1;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+
+  position: fixed;
+}
+.fcontainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #effbf8;
+  overflow-x: visible;
+  z-index: 10;
+}
